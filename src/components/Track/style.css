@@ -1,0 +1,16 @@
+.checkboxInput:checked:active, .checkboxInput:active {
+    border: 2px solid #666666;
+}
+
+.checkboxInput:checked:after {
+    content: '\2714';
+	font-size: 25px;
+	position: absolute;
+	top: -14px;
+	left: 2px;
+	color: #33ad33;
+}
+
+.done {
+    text-decoration: line-through;
+}
